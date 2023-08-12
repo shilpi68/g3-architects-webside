@@ -9,7 +9,13 @@
 
  }
  .btn-primary{
-    
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0px;
  }
  /* header styles */
  header{
@@ -54,4 +60,30 @@
  .banner-description{
     color: #727272;
  }
- .
+ .banner img{
+   width:100% ;
+   margin-top: 20px;
+ }
+
+
+ /* responsive media queries */
+ /* mobile devices */
+ @media screen  and (max-width:576px) {
+   header{
+      padding: 20px;
+   }
+   nav{
+      flex-direction: column;
+   }
+ }
+
+ /* tablet or medium devices */
+ @media screen and (min-width:576px) and (max-width:992px){
+   header{
+      padding: 50px;
+   }
+   nav{
+      flex-direction: column;
+   }
+   
+ }
